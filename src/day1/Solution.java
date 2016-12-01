@@ -12,7 +12,7 @@ import static java.lang.Math.abs;
 
 /**
  * Day 1: No Time for a Taxicab
- * <p>
+ *
  * Copy and Paste your inputs into data.txt or just pass them as a String
  */
 public class Solution {
@@ -172,7 +172,7 @@ public class Solution {
      * @param start start position
      * @param distance distance traveled
      */
-    private static void addVisitedPointsVOnNegativeY(List<Integer[]> visited, int[] start, int distance) {
+    private static void addVisitedPointsOnNegativeY(List<Integer[]> visited, int[] start, int distance) {
         for (int i = -1; i >= distance; --i) {
             visited.add(new Integer[]{start[0], start[1] + i});
         }

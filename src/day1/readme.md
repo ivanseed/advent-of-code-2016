@@ -25,3 +25,5 @@ You could easily edit the code to check after each movement, to then break throu
 i.e. move the command after the `addVisitedPoints...` method so then you can just return `if != NULL` to break out of the code, without calculating the rest of the commands.
 
 Again this is subject to interpretation, I read it as do this calculation after moving rather then checking while you are moving.
+
+I used a static class `Coordinate` so that I could use it in a `HashSet` that provides a very quick `contains` check that should be O(N) speed, you can't do this check with an `Integer[]` because of the `Arrays.equals and Arrays.hashCode` overrides being different.
