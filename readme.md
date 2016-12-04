@@ -6,3 +6,4 @@ My Solutions to Advent of Code 2016 in Java.
 * [Day 1: No Time for a Taxicab](./src/day1/)
 * [Day 2: Bathroom Security](./src/day2/)
 * [Day 3: Squares With Three Sides](./src/day3/)
+* [Day 4: Security Through Obscurity](./src/day4/)
